@@ -1,0 +1,24 @@
+body {
+	background: linear-gradient(to bottom right, #DADA4B, #81C664, #2EAB7C, #008B86, #0B6978, #2F4858);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    overflow: hidden;
+    margin: 100px auto;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.5);
+}
